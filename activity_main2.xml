@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="#c2e5fc">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txti1"
+        android:text="EMAIL"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="91dp"
+
+        android:layout_toRightOf="@+id/txti1"
+        android:text="Enter your email id" />
+
+    <TextView
+        android:id="@+id/txti2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txti1"
+        android:layout_marginTop="56dp"
+        android:text="PASSWORD"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@+id/txti2"
+        android:text="Enter your password" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt2"
+        android:gravity="center"
+        android:layout_marginLeft="120dp"
+        android:text="enter"
+        android:id="@+id/btn1"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn1"
+        android:text="create new account"
+        android:id="@+id/btn2"/>
+
+
+
+
+
+
+
+</RelativeLayout>
